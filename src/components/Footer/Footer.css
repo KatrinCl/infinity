@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    min-height: 50vh;
+    background: url(/footer1.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+    gap: 30px;
+    width: 100%;
+}
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    align-items: center;
+    color: white;
+}
+.footer-list p{
+    font-size: 22px;
+    font-style: oblique;
+    cursor: pointer;
+}
+.footer-list img{
+    width: 60px;
+    height: 60px;
+}
+.vkontakte{
+    width: 60px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(226, 226, 218);
+}
+.footer-p, .footer-p-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+}
+.footer-p-right{
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+}

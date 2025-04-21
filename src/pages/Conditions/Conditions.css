@@ -1,0 +1,39 @@
+.conditions{
+    display: flex;
+}
+.conditions-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 0 50px;
+    margin-bottom: 40px;
+}
+.conditions-container h1{
+    color: red;
+}
+.conditions-blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.conditions-block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+}
+.conditions-block h2{
+    color: rgb(218, 32, 32);
+    font-size: 26px;
+}
+.conditions-block h3{
+    color: rgb(242, 83, 83);
+    font-size: 22px;
+}
+.conditions-block p{
+    font-size: 18px;
+}

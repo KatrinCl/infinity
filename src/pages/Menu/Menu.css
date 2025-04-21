@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.menu-banner{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.menu-list{
+    display: flex;
+    gap: 30px;
+    margin: 20px 30px;
+    flex-wrap: wrap;
+}
+.menu-list p{
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgba(255, 0, 0, 0.403);
+    font-style: oblique;
+    cursor: pointer;
+}
+.menu-list p:hover{
+    background-color: red;
+    color: white;
+}
+.menu-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+}
