@@ -79,32 +79,32 @@ const Navbar = () => {
                     <div className={`burger-line ${isMenuOpen ? 'open' : ''}`}></div>
                 </div>
                 <div className='nav-delivery'>
-                    <img src="/logo3.jpg" alt="Логотип доставки" />
+                    <img src="./logo3.jpg" alt="Логотип доставки" />
                     <div className='nav-delivery-text'>
                         <p className='text-1'>ДОСТАВКА</p>
                         <p>ПН/ВС 10:00/18:00</p>
                         <p className='text-2'>*заказы принимаем только на сайте</p>
                     </div>
                 </div>
-                <Link to='/'><img className='nav-logo' src="/logo.webp" alt="Логотип компании" /></Link>
+                <Link to='/'><img className='nav-logo' src="./logo.webp" alt="Логотип компании" /></Link>
                 <div className='nav-top-right'>
                     <Link className='nav-location' to='/location'>
-                        <img src="/location.svg" alt="Локация" />
+                        <img src="./location.svg" alt="Локация" />
                         <p>Москва</p>
                     </Link>
                     <div className='contact-button' onClick={toggleContactModal}>
-                        <img src="/call.svg" alt="Контактная информация" />
+                        <img src="./call.svg" alt="Контактная информация" />
                         <p>Связаться</p>
                     </div>
                     <div>
                         <Link to='/cart' className='nav-cart'>
-                            <img src="/cart_icon.svg" alt="Корзина" />
+                            <img src="./cart_icon.svg" alt="Корзина" />
                             <p className='cart-dot'>{getCartCount()}</p>
                         </Link>
                         <p>Корзина</p>
                     </div>
                     <div className='nav-user' onClick={toggleLoginModal}>
-                        <img src="/home.svg" alt="Личный кабинет" />
+                        <img src="./home.svg" alt="Личный кабинет" />
                         <p>Войти</p>
                     </div>
                 </div>
@@ -112,15 +112,15 @@ const Navbar = () => {
 
             <div className="nav-bottom">
                 <Link to='/menu'><p>меню</p></Link>
-                <img src="/dot-red.svg" alt="" />
+                <img src="./dot-red.svg" alt="" />
                 <Link to='/conditions'><p>условия доставки</p></Link>
-                <img src="/dot-red.svg" alt="" />
+                <img src="./dot-red.svg" alt="" />
                 <p>бонусная карта</p>
-                <img src="/dot-red.svg" alt="" />
+                <img src="./dot-red.svg" alt="" />
                 <p>рестораны</p>
-                <img src="/dot-red.svg" alt="" />
+                <img src="./dot-red.svg" alt="" />
                 <Link to='/about'><p>о нас</p></Link>
-                <img src="/dot-red.svg" alt="" />
+                <img src="./dot-red.svg" alt="" />
                 <p>отзывы</p>
             </div>
 
