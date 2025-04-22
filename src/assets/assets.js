@@ -1,90 +1,20 @@
-// import menu_1 from '/menu_1.jpg'
-// import menu_2 from '/menu_2.jpg'
-// import menu_3 from '/menu_3.jpg'
-// import menu_4 from '/menu_4.jpg'
-// import menu_5 from '/menu_5.jpg'
-// import menu_6 from '/menu_6.jpg'
-// import menu_7 from '/menu_7.jpg'
-
-import food_1 from '/food_1.jpg'
-import food_2 from '/food_2.jpg'
-import food_3 from '/food_3.jpg'
-import food_4 from '/food_4.webp'
-import food_5 from '/food_5.jpg'
-import food_6 from '/food_6.jpeg'
-import food_7 from '/food_7.webp'
-import food_8 from '/food_8.jpg'
-import food_9 from '/food_9.jpg'
-import food_10 from '/food_10.jpg'
-import food_11 from '/food_11.jpg'
-import food_12 from '/food_12.jpg'
-import food_13 from '/food_13.jpg'
-import food_14 from '/food_14.jpg'
-import food_15 from '/food_15.jpg'
-import food_16 from '/food_16.jpg'
-import food_26 from '/food_26.jpg'
-
-
-// import rating_starts from '/rating_starts.png'
-// import add_icon_white from '/add_icon_white.svg'
-// import remove_icon_red from '/remove_icon_red.svg'
-// import add_icon_green from '/add_icon_green.svg'
-// import logo1 from '/logo1.png'
-// import facebook_icon from '/facebook_icon.svg'
-// import insta_icon from '/insta_icon.svg'
-// import twitter_icon from '/twitter_icon.svg'
-// import play_store from '/play_store.svg'
-// import app_store from '/app_store.svg'
-// import cross_icon from '/cross_icon.svg'
-
-
-export const assets =
-{
-    // rating_starts,
-    // add_icon_white,
-    // remove_icon_red,
-    // add_icon_green,
-    // logo1,
-    // facebook_icon,
-    // insta_icon,
-    // twitter_icon,
-    // play_store,
-    // app_store,
-    // cross_icon
-}
-
-// export const menu_list = [
-//     {
-//         menu_name: "Salade",
-//         menu_image: menu_1
-//     },
-//     {
-//         menu_name: "Rolls",
-//         menu_image: menu_2
-//     },
-//     {
-//         menu_name: "Deserts",
-//         menu_image: menu_3
-//     },
-//     {
-//         menu_name: "Sandwich",
-//         menu_image: menu_4
-//     },
-//     {
-//         menu_name: "Pasta",
-//         menu_image: menu_5
-//     },
-//     {
-//         menu_name: "Cake",
-//         menu_image: menu_6
-//     },
-//     {
-//         menu_name: "Noodles",
-//         menu_image: menu_7
-//     }
-
-
-// ]
+import food_1 from './images/food_1.jpg'
+import food_2 from './images/food_2.jpg'
+import food_3 from './images/food_3.jpg'
+import food_4 from './images/food_4.webp'
+import food_5 from './images/food_5.jpg'
+import food_6 from './images/food_6.jpeg'
+import food_7 from './images/food_7.webp'
+import food_8 from './images/food_8.jpg'
+import food_9 from './images/food_9.jpg'
+import food_10 from './images/food_10.jpg'
+import food_11 from './images/food_11.jpg'
+import food_12 from './images/food_12.jpg'
+import food_13 from './images/food_13.jpg'
+import food_14 from './images/food_14.jpg'
+import food_15 from './images/food_15.jpg'
+import food_16 from './images/food_16.jpg'
+import food_26 from './images/food_26.jpg'
 
 
 export const food_list = [
