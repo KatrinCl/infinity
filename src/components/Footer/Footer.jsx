@@ -8,15 +8,15 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className="footer-list">
                     <Link to='/menu'><p>меню</p></Link>
-                    <img src="/dot-white.svg" alt="" />
+                    <img src="./dot-white.svg" alt="" />
                     <Link to='/conditions'><p>условия доставки</p></Link>
-                    <img src="/dot-white.svg" alt="" />
+                    <img src="./dot-white.svg" alt="" />
                     <Link><p>бонусная карта</p></Link>
-                    <img src="/dot-white.svg" alt="" />
+                    <img src="./dot-white.svg" alt="" />
                     <Link><p>рестораны</p></Link>
-                    <img src="/dot-white.svg" alt="" />
+                    <img src="./dot-white.svg" alt="" />
                     <Link to='/about'><p>о нас</p></Link>
-                    <img src="/dot-white.svg" alt="" />
+                    <img src="./dot-white.svg" alt="" />
                     <Link><p>отзывы</p></Link>
                 </div>
                 <img className='vkontakte' src="./vk.svg" alt="" />

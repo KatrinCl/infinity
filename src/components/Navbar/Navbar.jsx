@@ -156,7 +156,7 @@ const Navbar = () => {
                 
                 {/* Контакты в мобильном меню */}
                 <div className='mobile-contact' onClick={toggleContactModal}>
-                    <img src="/call.svg" alt="Контактная информация" />
+                    <img src="./call.svg" alt="Контактная информация" />
                     <p>Связаться</p>
                 </div>
             </div>
