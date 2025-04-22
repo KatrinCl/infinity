@@ -80,7 +80,6 @@
     }
     .food-options-price{
         font-size: 20px;
-        font-weight: 550;
     }
     .food-add-cart{
         display: flex;
@@ -93,4 +92,11 @@
         color: red;
         cursor: pointer;
     }    
+}
+
+@media (max-width: 550px) {
+    .food-name, .food-options-price, .food-options-count p{
+        font-size: 18px;
+    }
+
 }
