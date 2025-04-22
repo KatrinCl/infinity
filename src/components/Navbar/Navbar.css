@@ -397,3 +397,30 @@
     }
     }
 
+    @media (max-width: 550px) {
+        .nav{
+            padding: 0;
+        }
+        .nav-logo{
+            width: 80px;
+        }
+        .nav-top-right{
+            gap: 10px;
+            font-size: 16px;
+        }
+        .nav-top-right img{
+            width: 28px;
+            height: 35px;
+        }
+        .contact-button{
+            display: none;
+        }
+        .cart-dot{
+            top: 20px;
+            right: 3px;
+            width: 15px;
+            height: 15px;
+        }    
+        }
+    
+    
