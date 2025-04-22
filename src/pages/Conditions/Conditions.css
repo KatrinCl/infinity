@@ -37,3 +37,27 @@
 .conditions-block p{
     font-size: 18px;
 }
+
+@media (max-width: 370px) {
+    .conditions-container h1{
+        font-size: 20px;
+    }
+    .conditions-blocks{
+        gap: 20px;
+    }
+    .conditions-block{
+        gap: 20px;
+        width: 80%;
+        padding: 20px;
+    }
+    .conditions-block h2{
+        font-size: 18px;
+    }
+    .conditions-block h3{
+        font-size: 16px;
+    }
+    .conditions-block p{
+        font-size: 16px;
+    }
+    
+}

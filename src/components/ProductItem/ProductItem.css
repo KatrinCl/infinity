@@ -63,8 +63,8 @@
 
 @media (max-width: 768px) {
     .food-item-img-container img{
-        width: 160px;
-        height: 140px;
+        width: 150px;
+        height: 130px;
     }
     .food-options{
         margin: 15px 0;
@@ -98,5 +98,29 @@
     .food-name, .food-options-price, .food-options-count p{
         font-size: 18px;
     }
+}
 
+@media (max-width: 370px) {
+    .food-item-img-container img{
+        width: 150px;
+        height: 130px;
+    }
+    .food-options{
+        margin: 0;
+    }    
+    .food-options-count{
+        gap: 7px;
+    }
+    .food-options-count img{
+        width: 16px;
+    }
+    .food-options-count p{
+        font-size: 16px;
+    }
+    .food-name{
+        font-size: 16px;
+    }
+    .food-options-price{
+        font-size: 16px;
+    }
 }

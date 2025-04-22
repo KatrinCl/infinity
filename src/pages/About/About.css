@@ -28,3 +28,27 @@
 .about-block p{
     font-size: 18px;
 }
+
+@media (max-width: 370px) {
+    .about{
+        margin: 0 20px;
+        margin-bottom: 40px;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .about-blocks{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .about-block{
+        gap: 30px;
+        padding: 40px;
+    }
+    .about-block h2{
+        font-size: 18px;
+    }
+    .about-block p{
+        font-size: 14px;
+    }    
+}
