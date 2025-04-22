@@ -32,7 +32,6 @@
 .cart-content{
     display: flex;
     flex-direction: column;
-    padding: 20px 30px;
     gap: 30px;
 }
 .cart-items{
@@ -210,7 +209,6 @@
         font-size: 14px;
     }
     .cart-content{
-        padding: 0;
         gap: 20px;
     }
     .cart-item{
@@ -293,7 +291,6 @@
         font-size: 14px;
     }
     .cart-content{
-        padding: 0;
         gap: 10px;
     }
     .cart-item{
