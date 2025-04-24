@@ -74,13 +74,35 @@
     }    
 }
 
-@media (max-width: 370px) {
+@media (max-width: 600px) {
     .location-container-blocks{
         gap: 30px;
     }
     .location-container-block{
-        gap: 20px;
+        gap: 30px;
         height: 260px;
+    }
+    .location-container-left, .location-container-right{
+        margin: 20px;
+    }
+    .location-container-block h1{
+        font-size: 24px;
+    }
+    .location-delivery-p, .location-address{
+        font-size: 18px;
+    }
+    .location-time-main{
+        font-size: 18px;
+    }
+    .location-time{
+        font-size: 16px;
+    }    
+}
+
+@media (max-width: 420px) {
+    .location-container-block{
+        gap: 20px;
+        height: 200px;
     }
     .location-container-left, .location-container-right{
         margin: 20px 10px;

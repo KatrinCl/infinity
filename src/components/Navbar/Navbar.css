@@ -420,6 +420,28 @@
             width: 15px;
             height: 15px;
         }    
+        .mobile-menu{
+            width: 200px;
+        }
+        .mobile-menu p{
+            font-size: 18px;
+        }
+        .modal{
+            align-items: center;
+        }
+        .submit-button{
+            font-size: 16px;
+        }
+        .contact-modal {
+            align-items: center;
+        }
+        
+        .modal-content {
+            padding: 20px 60px;
+            width: 200px;
+            max-width: 90%;
+        }            
+
         }
     
         @media (max-width: 370px) {
@@ -448,9 +470,6 @@
             }
             .modal{
                 align-items: center;
-            }
-            .modal-content{
-                max-width: 200px;
             }
             .submit-button{
                 font-size: 16px;

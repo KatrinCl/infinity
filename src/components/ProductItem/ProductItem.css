@@ -1,6 +1,7 @@
 .food-item{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .food-item:hover{
     background-color: rgba(242, 170, 170, 0.41);

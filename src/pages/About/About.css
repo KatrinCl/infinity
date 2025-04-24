@@ -29,7 +29,7 @@
     font-size: 18px;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .about{
         margin: 0 20px;
         margin-bottom: 40px;
