@@ -28,11 +28,6 @@
     font-style: oblique;
     min-height: 48px;
     line-height: 24px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
-    text-overflow: ellipsis;
-    overflow: hidden;
 }
 .food-options{
     display: flex;
@@ -69,6 +64,9 @@
 }
 
 @media (max-width: 768px) {
+    .food-item{
+        width: 150px;
+    }    
     .food-item-img-container img{
         width: 150px;
         height: 130px;
