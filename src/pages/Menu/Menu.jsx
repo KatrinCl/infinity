@@ -17,7 +17,7 @@ const Menu = () => {
 
   return (
     <div className='menu'>
-      <img className='menu-banner' src="/menu1.jpg" alt="" />
+      <img className='menu-banner' src="./menu1.jpg" alt="" />
       
       {/* Меню категорий */}
       <div className='menu-list'>

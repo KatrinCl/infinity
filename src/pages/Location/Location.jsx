@@ -7,7 +7,7 @@ const Location = () => {
         <div className='location'>
             <div className="location-container">
                 <div className='location-container-img'>
-                    <Link to='/'><img className='nav-logo' src="/logo.webp" alt="Логотип компании" /></Link>
+                    <Link to='/'><img className='nav-logo' src="./logo.webp" alt="Логотип компании" /></Link>
                 </div>
                 <div className="location-container-blocks">
                     <div className='location-container-block'>
